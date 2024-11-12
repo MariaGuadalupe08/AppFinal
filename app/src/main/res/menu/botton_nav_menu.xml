@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/notasFragment_"
+        android:title="Notas"
+        android:icon="@drawable/clipboard_regular"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/desarrollobebeFragment_"
+        android:title="Tu bebé"
+        android:icon="@drawable/baby_carriage_solid"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/controlmamiFragment_"
+        android:title="Para mamá"
+        android:icon="@drawable/person_breastfeeding_solid"
+        tools:ignore="HardcodedText" />
+
+    <item
+        android:id="@+id/ejercicioFragment_"
+        android:icon="@drawable/dumbbell_solid"
+        android:title="Ejercitate" />
+
+</menu>

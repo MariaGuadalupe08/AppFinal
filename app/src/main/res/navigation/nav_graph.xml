@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/notasFragment_">
+    >
+
+    <fragment
+        android:id="@+id/notasFragment_"
+        android:name="com.example.appfinal.NotasFragment"
+        android:label="uno"
+        tools:layout="@layout/fragment_notas" />
+
+    <fragment
+        android:id="@+id/desarrollobebeFragment_"
+        android:name="com.example.appfinal.DesarrolloBebeFragment"
+        android:label="dos" />
+
+    <fragment
+        android:id="@+id/controlmamiFragment_"
+        android:name="com.example.appfinal.ControlMamiFragment"
+        android:label="tres" />
+
+    <fragment
+        android:id="@+id/ejercicioFragment_"
+        android:name="com.example.appfinal.EjercicioFragment"
+        android:label="Cámara" />
+
+</navigation>
